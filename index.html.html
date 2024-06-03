@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Connexion en Ruta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            text-align: center;
+            background-color: rgb(253, 250, 238);
+        }
+
+        header {
+            background-color: #95cbf7;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        header nav {
+            width: 100%;
+            height: 50px;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        header nav ul li a {
+            color: black;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+        }
+
+        header nav ul li a:hover {
+            background-color: #7ec1ff;
+        }
+
+        main {
+            padding-top: 100px;
+        }
+
+        h1 {
+            font-size: 60px;
+            font-family: cursive;
+            color: rgb(70, 119, 211);
+        }
+
+        .cambiar-texto-con-clases {
+            font-size: 18px;
+        }
+
+        #Servicios,
+        #Metodologia,
+        #titulo-2 {
+            background-color: rgb(179, 214, 235);
+        }
+
+        h2 {
+            color: rgb(73, 156, 34);
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 0 auto;
+            /* Centrará la tabla horizontalmente */
+        }
+
+        th,
+        td {
+            border: 3px solid rgb(91, 19, 185);
+            padding: 8px;
+            text-align: center;
+        }
+
+        .content ul {
+            list-style-type: square;
+            padding-left: 20px;
+            background-color: rgba(255, 166, 0, 0.781);
+        }
+
+        .content ul li {
+            color: rgb(0, 0, 0);
+            margin-bottom: 5px;
+        }
+
+        .content ul li a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+        }
+
+        .content ul li a:hover {
+            color: rgb(255, 136, 0);
+        }
+
+        aside {
+            margin-top: 20px;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .content {
+            padding: 20px 50px;
+        }
+
+        /* Added styles */
+        section {
+            width: 80%;
+            margin: 0 auto;
+            overflow: auto;
+            height: 100%; /* Added height */
+        }
+
+        .fotos-y-mas{
+            max-width: 100%;
+            height: auto;
+            border: 6px ridge rgb(79, 126, 255);
+        }
+
+        #container {
+            width: px;
+            margin: auto;
+            border: 5px dashed rgb(161, 161, 161);
+            padding: 6px;
+        }
+
+        a:hover, a:active, a:focus { 
+                background-color: rgba(0, 60, 255, 0.363);
+            }  
+            
+        
+        </style>
+</head>
+<body>
+    <div id="container">
+    <header>
+        <nav>
+            <ul class="listas-desordenadas">
+                <li><a href="#Servicios">Servicios</a></li>
+                <li><a href="#Metodologia">Metodologia</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <br><br><br><br><br><br><br><br>
+        <h1 id="gran-inicio">Connexion en Ruta</h1>
+        <img src="IMG.png.png" alt="Logo de Connexion en Ruta" width="460">
+    </div>
+    <section>
+        <h2 id="titulo-2">¡Que la ruta escolar deje de ser aburrida!</h2>
+        <article class="content">
+            <br><br><p class="cambiar-texto-con-clases"><strong>¿Alguna vez ha enviado a su hijo al colegio en transporte público?</strong><br></p>
+            <br><ul>
+                <li>¿Le preocupa el nivel de seguridad cuando viaja en dicho transporte?</li>
+                <li>¿Considera que este transporte no tiene un ambiente agradable?</li>
+            </ul>
+            <br><br><p class="cambiar-texto-con-clases">Connexion en ruta ofrece solución a todos estos problemas. La etapa más importante es el crecimiento y desarrollo de una infancia feliz, 
+            para lograrlo, es importante que los <strong>espacios de socialización</strong> sean agradables y didácticos, de esta manera <strong>garantizamos seguridad y aprendizaje.</strong></p>
+
+            <br><a target="_blank" href="https://www.eltiempo.com/bogota/columna-de-opinion-omar-orostegui-691455">Click aquí para conocer más información sobre los riesgos del transporte público</a><br>
+
+            <br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Datos positivos</th>
+                        <th>Tasas de porcentaje</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Es un transporte seguro y confortable</td>
+                        <td>El porcentaje de riesgo es del 12,58%</td>
+                    </tr>
+                    <tr>
+                        <td>Es un espacio agradable para niñas y niños</td>
+                        <td>80% de los niños manifiestan la ruta como lugar seguro</td>
+                    </tr>
+                    <tr>
+                        <td>Eficiente y además muy divertido</td>
+                        <td>100% de nuestro personal está capacitado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <article class="content">
+            <br><h2 id="Servicios">Servicios</h2>
+            <p class="cambiar-texto-con-clases">Ofrecemos un servicio de transporte eficiente y seguro.</p>
+            <br><ul>
+                <li>Servicio de acompañamiento escolar.</li>
+                <li>Rutas interactivas y educativas.</li>
+                <li>Espacios de libre expresión.</li>
+                <li>Ambientes agradables de compañerismo.</li>
+                <li>Servicio de Psicología con personal experto.</li>
+            </ul>
+        </article>
+        <article class="content">
+            <br><h2 id="Metodologia">Metodología</h2>
+            <br><p>"El juego desempeña un papel fundamental en el desarrollo de niños, niñas y adolescentes. Buscamos aprovechar el tiempo de duración de la ruta escolar 
+            de la mejor manera posible. Mediante distintas actividades <em>estimulamos</em> el desarrollo cognitivo, que tiene como base la creatividad, la cual a su vez 
+            desarrolla habilidades con el pensamiento crítico, la resolución de problemas y la toma de decisiones. Implementamos juegos de <em>trabajo en equipo</em>, 
+            preguntas para estimular el conocimiento y muchas otras actividades durante el tiempo en que los chicos realizan su recorrido, ya sea en horas de la 
+            mañana o de la tarde. 
+        
+            <br><img class= "fotos-y-mas" src="JUGAR.png.png" alt="niños jugando" width="460"> <img class= "fotos-y-mas" src="BUS.png" alt="Buseta escolar" width="460">
+        
+            <br><br><p sistema de interacción social entre compañeros de ruta está diseñado para fomentar relaciones significativas y duraderas durante el desarrollo de diversas actividades. Este enfoque no solo promueve la colaboración y el trabajo en equipo, sino que también fortalece los vínculos entre los participantes, creando un entorno de apoyo mutuo y respeto. A través de actividades estructuradas y dinámicas grupales, los participantes aprenden a comunicarse eficazmente, a resolver conflictos de manera constructiva y a valorar las diferencias individuales, lo cual es esencial para la cohesión social y el desarrollo personal.<br><br>
+            Además, nos comprometemos profundamente con el desarrollo integral de los niños, niñas y adolescentes. Nuestro objetivo es que cada individuo logre un conocimiento profundo de sí mismo, aprendiendo a identificar y gestionar sus emociones, pensamientos y necesidades. A través de este proceso de autoconocimiento, se busca que cada joven pueda expresarse de manera efectiva y auténtica, lo cual es fundamental para su bienestar emocional y social. Implementamos programas de educación emocional que incluyen técnicas de mindfulness, inteligencia emocional y estrategias de autorregulación, para que los jóvenes puedan enfrentar los desafíos de la vida con resiliencia y confianza.<br>
+            <img src="images.png" alt="aprendizaje" width="460">
+            <br><br><p>El enriquecimiento cultural es otro pilar fundamental de nuestro programa. Fomentamos la preservación y transmisión de tradiciones e historias de la sociedad mediante el uso del lenguaje, la música, el arte y otras formas de expresión creativa. Estas actividades no solo contribuyen al desarrollo de habilidades artísticas y culturales, sino que también fortalecen la identidad cultural de los participantes y les permiten comprender y apreciar la diversidad cultural. A través de talleres y eventos culturales, los jóvenes tienen la oportunidad de explorar diferentes formas de arte, participar en festivales culturales y colaborar con artistas locales, enriqueciendo así su comprensión del mundo y su lugar en él.<br>
+            <br>A través de nuestras actividades, también buscamos transmitir valores, creencias y conocimientos que han sido adquiridos a lo largo del tiempo. Este enfoque educativo integral no solo prepara a los jóvenes para enfrentar los desafíos de la vida moderna, sino que también les proporciona una base sólida de principios y saberes que les serán útiles en todos los aspectos de su vida. Fomentamos valores como la empatía, el respeto, la responsabilidad y la cooperación, integrándolos en todas nuestras actividades y proyectos. De este modo, promovemos una educación que va más allá del aula, involucrando a los jóvenes en un aprendizaje continuo y significativo que contribuye a su desarrollo como individuos plenos y miembros activos de la sociedad.</p><br>
+            Nuestro programa también incluye la participación activa de la comunidad y las familias, reconociendo que el entorno familiar y social juega un papel crucial en el desarrollo de los jóvenes. Organizamos encuentros familiares, talleres de formación para padres y actividades comunitarias que fortalecen los lazos entre la escuela, la familia y la comunidad. De esta manera, creamos una red de apoyo sólida que acompaña a los jóvenes en su camino hacia el crecimiento y el aprendizaje.<br>
+            <br>Además, promovemos la inclusión y la equidad en todas nuestras actividades, asegurando que cada niño, niña y adolescente, independientemente de su origen o condición, tenga la oportunidad de participar y desarrollarse plenamente. Trabajamos con un enfoque inclusivo que celebra la diversidad y promueve la igualdad de oportunidades para todos.</p>
+        </article>
+    </section>
+    <aside>
+        <h3>Camila Lopez</h3>
+        <p>Este sitio fue creado por <a target="_blank" href="https://www.instagram.com/camila_lop_s?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Camila Lopez</a>, Estudiante de grado décimo. 
+        Puedes escribirle un correo a <strong>dianacamilalopezsanchez@gmail.com</strong></p>
+    </aside>
+    <footer>Todos los derechos reservados</footer> 
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
